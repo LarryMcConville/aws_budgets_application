@@ -13,7 +13,8 @@ terraform {
 }
 
 module "budget_forecasted" {
-    source       = "../../../aws_budgets_terraform/modules"
+    #source       = "../../../aws_budgets_terraform/modules"
+    source       = "git::https://github.com/LarryMcConville/aws_budgets_terraform.git//modules"
     region       = var.region
     account      = var.account
     topic_name   = var.topic_name

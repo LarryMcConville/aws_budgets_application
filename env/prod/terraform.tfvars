@@ -1,0 +1,5 @@
+region       = "us-east-2"
+display_name = "prod-free-tier-budget-alarm"
+topic_name   = "prod-free-tier-budget-alarm"
+budget_name  = "prod-free-tier-budget"
+account      = "080222692687"
